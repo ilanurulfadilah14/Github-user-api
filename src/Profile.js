@@ -21,7 +21,7 @@ export default function Profile(props) {
        </div>
 
        <div className="flex  flex-wrap items-center justify-between ">
-        <a href={props.html_url} target="_blank" rel="noreferrer" className="underline text-gray-600">View Repo</a>
+        <a href={props.html_url} target="_blank" rel="noreferrer" className="underline text-sky-600">View Repo</a>
         <ul className="text-right">
           <li className="text-gray-600">{props.stargazers_count.toLocaleString()} stars</li>
           <li className="text-gray-600">{props.watchers_count.toLocaleString()} watchers</li>
