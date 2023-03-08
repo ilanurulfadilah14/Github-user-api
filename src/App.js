@@ -9,7 +9,7 @@ import Profile from "./Profile"
 
 function App() {
   const [items, setItems] = useState([])
-  const [users] = useState("florinpop17")
+  const [users] = useState("Florinpop17")
 
   useEffect(() => {
     const fetchRepos = async () => {
@@ -28,7 +28,7 @@ function App() {
     ) : ( 
     <>
       <section className="pt-5 pb-5">
-        <h1 className="text-2xl font-bold text-center">Viewing {users}'s repositories
+        <h1 className="text-2xl font-bold text-center">{users}'s Repositories
         </h1>
           
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2  lg:grid-cols-3 mt-10">
