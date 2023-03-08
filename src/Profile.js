@@ -37,7 +37,7 @@ export default function Profile(props) {
           
         </ul>
 
-        <p className="text-xs">{props.open_issues} issues</p>
+        
 
        </div>
       </article> 
